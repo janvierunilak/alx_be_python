@@ -1,12 +1,8 @@
 # Define the dictionary with book details
-favorite_book = {
-    "title": "Things Fall Apart",
-    "author": "Chinua Achebe",
-    "genre": "Historical Fiction"
-}
+favorite_book ={"Title": "Things fall aprt", "Author": "Chinua Achebe","Genre" : " Historical fiction"
+        }
+book_genre=favorite_book.get('Genre')
 
-# Use the get() method to retrieve the genre
-book_genre = favorite_book.get("genre")
+print(f"The book <:: {favorite_book.get('Title')} ::> by ::> {favorite_book.get('Author')} <:: its Genre is >>",book_genre)
 
-# Display the genre
-print("Genre:", book_genre)
+   
