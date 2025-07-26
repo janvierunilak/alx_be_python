@@ -5,5 +5,5 @@ def fibonacci_series(n):
         a,b =b, a+b
     print()
 
-fibonacci_series(1000)        
+fibonacci_series(500)        
 
