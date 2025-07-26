@@ -1,4 +1,4 @@
-users={'Gad':'Active','Mutamba':'Inactive','Kanoni':'Active','Mugeshi':'Inactive','Janvier':'Active'}
+users={'Gad':'Active','Mutamba ':'Inactive','Kanoni':'Active','Mugeshi':'Inactive','Janvier':'Active'}
 for user,status in users.copy().items():
     print(user,status)
     if status=='Inactive':
