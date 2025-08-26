@@ -1,0 +1,19 @@
+class Student :
+    def __init__(self,name,age,location):
+        self.name=name
+        self.age=age
+        self.location=location
+
+    def student_info(self):
+        return "Student's Info :"
+
+student_profile=Student("RUGAMBWA",45,"KIGALI")
+
+print(f" The available {student_profile.student_info()} ::")
+
+print(f" The student {student_profile.name} has {student_profile.age} years and lives in {student_profile.location}")
+
+
+        
+    
+

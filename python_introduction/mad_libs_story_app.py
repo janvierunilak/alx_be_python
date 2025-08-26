@@ -19,14 +19,14 @@ elif weather.lower()=="cloudy":
     weather_activity="Predict the rain or sun in the next hour."
 else:
     weather_activity="decided to stay indoors and read some books."
-
-    #The story part 
+    
+#The story part 
 story=f"""
 one {weather} day, {name} was walking through the  {place}, with a {adjective} {animal}.
 suddenly, they found a {noun} lying on the ground. curious, {name} picked it up and decided to {verb} with it.
 they felt very {emotion} about the whole situation.
 to make the most of the day, {name} and the animal {weather_activity}.
-it was a fun day to remember!
+it was a fun day to remember!  
 
 """
     # displaying the final story
