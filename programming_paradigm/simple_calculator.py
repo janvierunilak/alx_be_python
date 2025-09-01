@@ -22,5 +22,5 @@ class SimpleCalculator:
         """
         if b == 0:
             return None
-        f"Division by zero is not feasible "
+
         return a / b
